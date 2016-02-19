@@ -7,4 +7,7 @@ class PagesController < ApplicationController
 
   def poop
   end
+
+  def boats
+  end
 end

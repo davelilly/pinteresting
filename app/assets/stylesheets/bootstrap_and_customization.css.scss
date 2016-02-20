@@ -1,7 +1,11 @@
-$body-bg: #123456;
-$navbar-inverse-bg: #234567;
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,400italic,300italic,700,700italic,900,900italic);
+
+$body-bg: #ecf0f1;
+$font-family-sans-serif: 'lato', helvetica, arial, sans-serif;
+$navbar-inverse-bg: #bd081c;
 $navbar-inverse-link-color: white;
-$brand-primary: #001234;
-$jumbotron-bg: #fff123;
+$brand-primary: #bd081c;
+$jumbotron-bg: #fff;
+$btn-default-bg: #fff;
 
 @import 'bootstrap';

@@ -1,8 +1,7 @@
 Rails.application.routes.draw do
+  devise_for :users
   get 'pages/boats'
-
   get 'pages/poop'
-
   root "pages#home"
   get "about" => "pages#about"
   get "poop" => "pages#poop"

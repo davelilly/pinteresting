@@ -1,12 +1,13 @@
 Rails.application.routes.draw do
   devise_for :users
-  get 'pages/boats'
-  get 'pages/poop'
+ 
   root "pages#home"
-  get "about" => "pages#about"
-  get "poop" => "pages#poop"
-  get "boats" => "pages#boats"
+  get "about" => "pages#about" # Creates about_path
+  get "poop" => "pages#poop" # Creates poop_path
+  get "boats" => "pages#boats" # Creates boats_path
   # get 'pages/home'
+  # get 'pages/boats'
+  # get 'pages/poop'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
